@@ -1,3 +1,13 @@
+Reminder for the present buggs in the code:
+
+1. on watchList component the API is beeing called twice : src\components\WatchList.jsx     << there have been some articles that say on local development the component could be rendered twice by react to prevent bugs, I dont know how true that is >> the link for the article is here {https://stackoverflow.com/questions/48846289/why-is-my-react-component-is-rendering-twice}
+2. local storage was not working properly (I think, this got solved during our call) 
+3. On the chart the ToolTip, is crashing if no data is present the file is: src\components\Chart.js
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
